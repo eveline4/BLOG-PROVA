@@ -1,0 +1,91 @@
+/*
+	Resetando todos os elementos do khtml
+*/
+
+
+* { 
+	margin: 0 auto; 
+	padding: 0; 
+}	
+#imagens{
+    display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	width: 5%;
+	height: 100vh;
+	background-image: url(../imagens/cabecalho.png);
+	background-size: cover;
+	padding-bottom: 30px;
+}
+a {
+	color: #fff;
+	font:18px Ubuntu;
+	text-decoration: none;
+	padding: 10px;
+	font-weight: 300;
+	transition: all 0.3s;
+}
+
+header {
+	width: 100%;
+	position: fixed;
+}
+
+header nav {
+	padding-top: 15px;
+	background: #191970;
+	height: 35px
+}
+
+header nav ul li {
+	display: inline; 
+}
+
+header nav ul li a:hover {
+	background: #ccc;
+    color: #fff;
+    padding: 10px;
+}
+#band {
+	padding-top: 50px;
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+}
+
+section .title {
+	font-family: Manjari;
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+}
+
+.subtitle {
+	font-family: Manjari;
+	color: #555;
+	text-align: center;
+}
+
+.text {
+	font-family: Manjari;
+	font-size: 18px;
+	line-height: 25px;
+	color: #000;
+	text-align: justify;
+	padding-bottom: 20px;
+}
+
+#images {
+	margin: 20px 25px;
+	display: flex;
+	flex-direction: row;
+}
+
+.img {
+	display: flex;
+	flex-direction: column;
+}
+
+.img span {
+		padding-bottom: 20px;
+}
