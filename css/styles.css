@@ -15,8 +15,9 @@
 	height: 100vh;
 	background-image: url(../imagens/cabecalho.png);
 	background-size: cover;
-	padding-bottom: 30px;
-}
+	padding:center;
+	margin:0px;
+}	
 a {
 	color: #fff;
 	font:18px Ubuntu;
@@ -61,7 +62,7 @@ section .title {
 
 .subtitle {
 	font-family: Manjari;
-	color: #555;
+	color: 000;
 	text-align: center;
 }
 
@@ -75,7 +76,7 @@ section .title {
 }
 
 #images {
-	margin: 20px 25px;
+	margin: 20px 20px;
 	display: flex;
 	flex-direction: row;
 }
@@ -87,4 +88,15 @@ section .title {
 
 .img span {
 		padding-bottom: 20px;
+}
+
+#ed {
+	padding-left: 400px;
+}
+
+
+#home {
+
+	padding: 30px;
+	padding: 30px;
 }
