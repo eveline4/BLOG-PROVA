@@ -46,12 +46,8 @@ header nav ul li a:hover {
     color: #fff;
     padding: 10px;
 }
-#band {
-	padding-top: 50px;
-	width: 60%;
-	display: flex;
-	flex-direction: column;
-}
+
+
 
 section .title {
 	font-family: Manjari;
@@ -62,15 +58,16 @@ section .title {
 
 .subtitle {
 	font-family: Manjari;
-	color: 000;
+	font-size: 20px;
+	color: green;
 	text-align: center;
 }
 
 .text {
 	font-family: Manjari;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 25px;
-	color: #000;
+	color: black;
 	text-align: justify;
 	padding-bottom: 20px;
 }
@@ -87,7 +84,7 @@ section .title {
 }
 
 .img span {
-		padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 #ed {
@@ -100,3 +97,19 @@ section .title {
 	padding: 30px;
 	padding: 30px;
 }
+
+#picture {
+	margin: 5px;
+	display: flex;
+	flex-direction: row;
+}
+ 
+.dicas {
+	margin: 5px;
+	font-size: 20px;
+	color: green;
+	text-align: justify;
+	display: flex;
+	flex-direction: row;
+}
+
