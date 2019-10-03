@@ -107,10 +107,37 @@ section .title {
 .dicas {
 	margin: 5px;
 	font-size: 20px;
-	color: green;
+	color: rgb(7, 7, 7);
 	text-align: justify;
 	display: flex;
 	flex-direction: row;
 }
 
-
+#plan {
+	color: red;
+}
+#planejar {
+	color: red;
+	font-size: 20px;
+}
+#do {
+	color: rgb(32, 108, 221);
+}
+#fazer {
+	color: rgb(57, 75, 230);
+	font-size: 20px;
+}
+#check {
+	color: rgb(57, 233, 72);
+}
+#checar {
+	color: rgb(30, 190, 43);
+	font-size: 20px;
+}
+#ação {
+	color: orangered;
+}
+#act {
+	color: orangered;
+	font-size: 20px;
+}
