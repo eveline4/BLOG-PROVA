@@ -200,4 +200,10 @@ section .title {
 		letter-spacing: 9px;
 		margin-bottom: 20px;
 	}
-}
+
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	
+	
