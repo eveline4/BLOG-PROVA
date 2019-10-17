@@ -111,34 +111,6 @@ section .title {
 	flex-direction: row;
 }
 
-#plan {
-	color: red;
-}
-#planejar {
-	color: red;
-	font-size: 20px;
-}
-#do {
-	color: rgb(32, 108, 221);
-}
-#fazer {
-	color: rgb(57, 75, 230);
-	font-size: 20px;
-}
-#check {
-	color: rgb(57, 233, 72);
-}
-#checar {
-	color: rgb(30, 190, 43);
-	font-size: 20px;
-}
-#a??o {
-	color: orangered;
-}
-#act {
-	color: orangered;
-	font-size: 20px;
-}
 .papel{
 	background-image: url(../imagens/papeldeparede.jpg );
 	padding: 30px;
@@ -147,11 +119,22 @@ section .title {
 .auau {
 	text-align: center;
 }
-#postagens {
-	background-color: tomato;
-	height: 700px;
-	width: 5000px;
+#bloc{
+	margin: 100px 100px;
+	display: flex;
+	flex-direction: row;
+	
 }
+.bb :hover{
+	transform: scale(1.1);
+}
+.bb{
+	display: inline-block;
+	flex-direction: column;
+	
+	
+}
+
 .conteudo {
 	text-align: center;
 	left: 50%;
